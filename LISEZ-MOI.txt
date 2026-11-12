@@ -1,0 +1,21 @@
+PORTFOLIO JOYCE — dossier complet du site
+==========================================
+
+Contenu
+- index.html : la page du site (tout le code est dedans)
+- img/       : toutes les photos, déjà optimisées pour le web
+
+Voir le site sur ton ordinateur
+- Double-clique sur index.html. Il s'ouvre dans le navigateur.
+
+Ajouter les coordonnées de Joyce
+- Ouvre index.html avec un éditeur de texte et cherche la ligne :
+      var CONTACT = { email: "", instagram: "", whatsapp: "" };
+- Remplis ce que tu veux afficher, par exemple :
+      var CONTACT = { email: "joyce@exemple.com", instagram: "son.identifiant", whatsapp: "33612345678" };
+- Les boutons de contact apparaissent tout seuls. Laisse vide ce que tu ne veux pas montrer.
+
+Mettre le site en ligne gratuitement
+- GitHub Pages : mets tout le contenu de ce dossier dans un dépôt public,
+  puis Settings > Pages > Branch "main" > Save.
+- Netlify : connecte-toi sur app.netlify.com/drop et glisse ce dossier dans la page.
